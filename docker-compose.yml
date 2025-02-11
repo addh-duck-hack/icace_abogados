@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  juridicoicacehidalgo.mx.com:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: juridicoicacehidalgo.mx
+    restart: always
+    ports:
+      - 100:80
+    networks:
+      - npm
+      - juridicoicacehidalgo.mx
+
+networks:
+  juridicoicacehidalgo.mx:
+    name: juridicoicacehidalgo.mx
+    driver: bridge
+  npm:
+    external: true

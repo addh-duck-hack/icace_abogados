@@ -9,8 +9,6 @@ Este archivo es donde se pueden agregar estilos personalizados para el sitio web
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: var(--abogados-gris);
     margin: 0;
     padding: 0;
     font-family: "Montserrat", serif !important;
@@ -83,11 +81,6 @@ body {
     color: white;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
-
 footer {
     background-color: var(--abogados-azul);
     color: white;
@@ -96,4 +89,38 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+.navbar-container{
+    background-color: var(--abogados-gris) !important;
+    color: white;
+    padding: 12px 0px !important;
+}
+
+.carousel-margin{
+    margin-top: 124px;
+}
+
+.carousel-container{
+    height: calc(100vh - 124px);
+}
+.carousel-item{
+    height: 100%;
+}
+.frame-container{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    padding: 40px 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imagen-afiliados{
+    width: 500px;
+    height: auto;
+}
+.frame-container > h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: -20px;
 }
