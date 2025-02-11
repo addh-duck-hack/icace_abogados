@@ -1,0 +1,99 @@
+/* 
+Este archivo es donde se pueden agregar estilos personalizados para el sitio web del despacho de abogados. 
+*/ 
+
+:root {
+    --abogados-azul: #00416b;
+    --abogados-gris: #8a8a8a;
+    --abogados-amarillo: #edcc1cff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--abogados-gris);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
+
+.logo-navbar{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.navbar-custom{
+    background-color: var(--abogados-azul) !important;
+}
+
+.navbar-title{
+    color: var(--abogados-amarillo);
+    text-decoration: none;
+}
+.navbar-title > p{
+    margin: -7px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: var(--abogados-azul);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.social-icon:hover {
+    background-color: var(--abogados-amarillo);
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: var(--abogados-azul);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
