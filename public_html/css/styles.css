@@ -16,6 +16,10 @@ body {
     font-style: normal;
 }
 
+.margin-top-80{
+    margin-top: 80px;
+}
+
 .weight-400 {
     font-weight: 400;
 }
@@ -105,6 +109,8 @@ footer {
 }
 .carousel-item{
     height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 .frame-container{
     border-radius: 30px;
@@ -123,4 +129,104 @@ footer {
     color: white;
     font-size: 3em;
     margin-bottom: -20px;
+}
+.services-container{
+    width: 100%;
+    height: 40vh;
+    padding: 0 !important;
+    background-size: cover;
+    background-position: center;
+}
+.services-transparent{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    padding: 50px 100px;
+}
+.text-services > h1{
+    color: black;
+    margin: 0px 0;
+}
+.baner-services{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: auto;
+}
+.icon-circle {  
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em; 
+    background-color: white;
+    color: black;
+    margin: 15px auto 5px;
+}
+.video-container{
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.video-container > iframe{
+    width: 100%;
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.text-end{
+    margin-right: 80px;
+}
+.container-text-video-left{
+    border: 2px solid gray;
+    padding: 5px;
+    margin-bottom: 20px;
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.banner{
+    height: 30vh;
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+}
+.contact-container-banner{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: 200px;
+    margin: 20px 0;
+}
+.contact-container-banner h1{
+    margin: 0;
+}
+
+.photo-container-single{
+    border: 1px solid var(--abogados-gris);
+    width: 250px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+
+.title-photo-container{
+    background-color: var(--abogados-gris);
+    width: 230px;
+    height: 60px;
+    margin: -30px auto 0;
+    color: white;
+}
+
+.container-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-photo-container h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .col-hidden-sm {
+        display: none;
+    }
 }
