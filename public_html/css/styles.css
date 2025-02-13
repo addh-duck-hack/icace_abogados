@@ -85,6 +85,14 @@ body {
     color: white;
 }
 
+.link-duck-hack{
+    color:white;
+    text-decoration: none;
+}
+.link-duck-hack:hover {
+    color: var(--abogados-amarillo);
+}
+
 footer {
     background-color: var(--abogados-azul);
     color: white;
@@ -104,10 +112,22 @@ footer {
     margin-top: 124px;
 }
 
+.inicial-imagen-margin{
+    margin-top: 124px;
+}
 .carousel-container{
     height: calc(100vh - 124px);
 }
+.imagen-inicial-container{
+    height: calc(100vh - 124px);
+}
 .carousel-item{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.center-frame-container{
+    position: relative;
     height: 100%;
     background-size: cover;
     background-position: center;
