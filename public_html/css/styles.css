@@ -218,6 +218,10 @@ footer {
     margin: 0;
 }
 
+.contact-container .row{
+    width: 100%;
+}
+
 .photo-container-single{
     border: 1px solid var(--abogados-gris);
     width: 250px;
