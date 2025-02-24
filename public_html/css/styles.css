@@ -108,10 +108,6 @@ footer {
     padding: 12px 0px !important;
 }
 
-.carousel-margin{
-    margin-top: 124px;
-}
-
 .inicial-imagen-margin{
     margin-top: 124px;
 }
@@ -167,6 +163,11 @@ footer {
     color: black;
     margin: 0px 0;
 }
+
+.font-size-services-text{
+    font-size: 1.5em;
+}
+
 .baner-services{
     background-color: var(--abogados-azul);
     color: white;
@@ -246,6 +247,28 @@ footer {
 .title-photo-container h1{
     font-size: 1.5rem;
     text-align: center;
+    margin: 0;
+}
+
+.font-strategy-text{
+    font-size: 15px;
+    text-align: justify;
+}
+.font-strategy-header{
+    font-size: 1em;
+    font-weight: 700;
+}
+.margin-strategy{
+    margin: 30px 0;
+}
+
+.strategy-container-banner{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: 90px;
+    margin: 10px 0;
+}
+.strategy-banner-header{
     margin: 0;
 }
 

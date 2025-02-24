@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Aquí puedes agregar scripts personalizados para la funcionalidad adicional del sitio web.
     
+    
     // Ejemplo: Inicializar el carrusel de Bootstrap
     var myCarousel = document.querySelector('#myCarousel');
     var carousel = new bootstrap.Carousel(myCarousel, {
@@ -9,3 +10,5 @@ document.addEventListener('DOMContentLoaded', function() {
         wrap: true
     });
 });
+    const year = document.getElementById('current-year');
+    year.innerHTML = new Date().getFullYear();

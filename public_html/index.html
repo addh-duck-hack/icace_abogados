@@ -30,6 +30,9 @@
     <!-- Contact -->
     <div id="contact"></div>
 
+    <!-- Strategy -->
+    <div id="strategy"></div>
+
     <!-- Carrusel -->
     <div id="carousel"></div>
 
@@ -37,13 +40,17 @@
     <div id="footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
     <script>
         // Función para cargar archivos HTML parciales
         function loadHTML(id, url) {
             fetch(url)
                 .then(response => response.text())
-                .then(data => document.getElementById(id).innerHTML = data);
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                    if (id === 'footer') {
+                        downloadJSAtOnload();
+                    }
+            });
         }
 
         // Cargar los archivos parciales
@@ -53,8 +60,15 @@
         loadHTML('video', 'partials/video.html');
         loadHTML('banner', 'partials/banner.html');
         loadHTML('contact', 'partials/contact.html');
+        loadHTML('strategy', 'partials/strategy.html');
         loadHTML('carousel', 'partials/carousel.html');
         loadHTML('footer', 'partials/footer.html');
+
+        function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "js/scripts.js";
+            document.body.appendChild(element);
+        }
     </script>
 </body>
 </html>
