@@ -14,32 +14,12 @@
 <body>
     <!-- Encabezado -->
     <div id="header"></div>
-
-    <!-- Pantalla inicial -->
-    <div id="mainScreen"></div>
-
-    <!-- Servicios -->
-    <div id="services"></div>
-
-    <!-- Contact -->
-    <div id="contact"></div>
-
-    <!-- Video -->
-    <div id="video"></div>
-
-    <!-- Banner -->
-    <div id="banner"></div>
-
-    <!-- Strategy -->
-    <div id="strategy"></div>
-
-    <!-- Carrusel -->
-    <div id="carousel"></div>
-
+    <!-- ContactSide -->
+    <div id="contactSide"></div>
     <!-- Pie de página -->
     <div id="footer"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         // Función para cargar archivos HTML parciales
         function loadHTML(id, url) {
@@ -52,16 +32,9 @@
                     }
             });
         }
-
         // Cargar los archivos parciales
         loadHTML('header', 'partials/header.html');
-        loadHTML('mainScreen', 'partials/mainScreen.html');
-        loadHTML('services', 'partials/services.html');
-        loadHTML('video', 'partials/video.html');
-        loadHTML('banner', 'partials/banner.html');
-        loadHTML('contact', 'partials/contact.html');
-        loadHTML('strategy', 'partials/strategy.html');
-        loadHTML('carousel', 'partials/carousel.html');
+        loadHTML('contactSide', 'partials/contactSide.html');
         loadHTML('footer', 'partials/footer.html');
 
         function downloadJSAtOnload() {
