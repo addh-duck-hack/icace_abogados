@@ -370,6 +370,28 @@ footer {
     height: auto;
 }
 
+.no-padding{
+    padding: 0 !important;
+}
+
+.background-image-contact{
+    background-size: cover;
+    background-position: center;
+}
+
+.form-contact-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 2em 4em;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
 
 @keyframes slideDown {
     0% {
