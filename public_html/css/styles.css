@@ -107,6 +107,11 @@ footer {
     color: white;
     padding: 12px 0px !important;
 }
+.container-text-center-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .inicial-imagen-margin{
     margin-top: 124px;
@@ -136,6 +141,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 .imagen-afiliados{
     width: 500px;
@@ -143,7 +149,7 @@ footer {
 }
 .frame-container > h1{
     color: white;
-    font-size: 3em;
+    font-size: 2.1em;
     margin-bottom: -20px;
 }
 .services-container{
@@ -151,7 +157,7 @@ footer {
     height: 40vh;
     padding: 0 !important;
     background-size: cover;
-    background-position: center;
+    background-position:  25% 30%;
 }
 .services-transparent{
     background-color: rgba(255, 255, 255, 0.5);
@@ -193,6 +199,13 @@ footer {
 .element-icon-circle{
     margin-left: 0px;
 }
+.justify-content-center{
+    padding-bottom: 15px;
+}
+.text-banner-services{
+    margin: 0;
+}
+
 .video-container{
     min-height: 40vh;
     max-height: 45vh;
@@ -231,9 +244,27 @@ footer {
     width: 100%;
 }
 
+.container-text-center-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-imagen{
+    height: 30vh;
+    width: 100%;
+    margin: 10px 0px;
+}
+
 .photo-container-single{
     border: 1px solid var(--abogados-gris);
     width: 250px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+
+.photo-container-tree{
+    border: 1px solid var(--abogados-gris);
+    width: 450px;
     height: 300px;
     margin: 50px auto 0;
 }
@@ -245,13 +276,6 @@ footer {
     margin: -30px auto 0;
     color: white;
     
-}
-
-
-.container-text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .title-photo-container h1{
@@ -292,6 +316,12 @@ footer {
     margin: 0;
 }
 
+.container-text-center-strategy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .photo-container-contactSide{
     border: 1px solid var(--abogados-gris);
     height: 300px;
@@ -299,6 +329,11 @@ footer {
 }
 .title-photo-container-contactSide{
     margin: 160px auto 0 auto;
+}
+.container-text-center-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .address-photo-container-contactSide{
     width: 250px;
@@ -373,7 +408,9 @@ footer {
 .no-padding{
     padding: 0 !important;
 }
-
+.no-marging{
+    margin: 0 !important;
+}
 .background-image-contact{
     background-size: cover;
     background-position: center;
@@ -385,7 +422,8 @@ footer {
     width: 50%;
     margin: auto;
     padding: 2em 4em;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 10px;
 }
 
@@ -528,5 +566,16 @@ footer {
     }
     .carousel-container{
         height: calc(100vh - 101px);
+    }
+    .form-contact-container{
+    width: 85%;
+    padding: 15px 20px;
+    }
+    .background-image-inicial{
+        background-size: cover;
+        background-position: 100% 30%;
+    }
+    .photo-container-tree{
+        width: 100%;
     }
 }
