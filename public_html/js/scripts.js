@@ -12,3 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
     const year = document.getElementById('current-year');
     year.innerHTML = new Date().getFullYear();
+
+    var carouselExampleRide = document.getElementById('carouselExampleRide');
+    var headerText = document.querySelector('.frame-container h1');
+
+    carouselExampleRide.addEventListener('slide.bs.carousel', function(event) {
+    if (event.to === 1) { // Índice de la segunda diapositiva
+            headerText.textContent = 'INTEGRIDAD Y RESPONSABILIDAD SOCIAL';
+    } else {
+            headerText.textContent = 'AFILIADOS';
+    }
+});
