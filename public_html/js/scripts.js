@@ -20,6 +20,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (event.to === 1) { // Índice de la segunda diapositiva
             headerText.textContent = 'INTEGRIDAD Y RESPONSABILIDAD SOCIAL';
     } else {
-            headerText.textContent = 'AFILIADOS';
+            headerText.textContent = 'VINCULACIÓN GUBERNAMENTAL Y ENLACE EMPRESARIAL';
     }
+    // Mostrar/ocultar enlaces según la diapositiva activa
+    const activeIndex = parseInt(document.querySelector('.carousel-item.active').getAttribute('data-bs-slide-to'));
+    const links = document.querySelectorAll('.link-afiliados');
+
+    links.forEach((link, index) => {
+        if (index === activeIndex) {
+            link.style.display = 'block'; // Muestra el enlace correspondiente
+        } else {
+            link.style.display = 'none'; // Oculta los demás enlaces
+        }
+    });
 });
+
+
+
