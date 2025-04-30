@@ -15,7 +15,7 @@
       <a href="https://www.barralajp.com" target="_blank" class="link-afiliados link-1" style="display: none;">
         <img src="../img/barra_abogados.png" class="imagen-afiliados">
       </a>
-      <a href="/index.php" target="_blank" class="link-afiliados link-0">
+      <a href="/index.php" class="link-afiliados link-0">
         <img src="../img/logo_icace.png" class="imagen-logo-carrucel">
       </a>
     </div>
