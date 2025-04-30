@@ -27,10 +27,10 @@
           <br>
           <div class="address-photo-container-contactSide">
             <p> Correos:
-            <a href="https://" target="_blank" class="link-mail">ivon.gallardo@juridicoicacehidalgo.mx</a>
-            <a href="https://" target="_blank" class="link-mail">carlos.guzman@juridicoicacehidalgo.mx</a>
-            <a href="https://" target="_blank" class="link-mail">armando.ramirez@juridicoicacehidalgo.mx</a>
-            <a href="https://" target="_blank" class="link-mail">abogados@juridicoicacehidalgo.mx</a>
+            <a href="mailto:ivon.gallardo@juridicoicacehidalgo.mx" class="link-mail">ivon.gallardo@juridicoicacehidalgo.mx</a>
+            <a href="mailto:ivon.gallardo@juridicoicacehidalgo.mx" class="link-mail">carlos.guzman@juridicoicacehidalgo.mx</a>
+            <a href="mailto:ivon.gallardo@juridicoicacehidalgo.mx" class="link-mail">armando.ramirez@juridicoicacehidalgo.mx</a>
+            <a href="mailto:ivon.gallardo@juridicoicacehidalgo.mx" class="link-mail">abogados@juridicoicacehidalgo.mx</a>
           </p>
           </div>
           <div class="container-fluid">
@@ -56,11 +56,11 @@
               <div class="col margin-phone-number">
                 <div class="phone-container-number">
                   <i class="fa-solid fa-headphones color-icons-contact"></i>
-                  <p class="phone-number-container">55 4381 7270</p>
+                  <p class="phone-number-container"><a href="tel:+525543817270">55 4381 7270</a></p>
                 </div>
                 <div class="phone-container-number">
                   <i class="fa-solid fa-headphones color-icons-contact"></i>
-                  <p class="phone-number-container">771 144 2258</p>
+                  <p class="phone-number-container"><a href="tel:+527711442258">771 144 2258</a></p>
                 </div>
                 <p class="text-clock-margin">Números para atención a clientes</p>
               </div>
