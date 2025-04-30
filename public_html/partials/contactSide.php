@@ -24,6 +24,7 @@
           <p class="text-contactSide-margin">¿Necesitas un abogado?</p>
           <p class="text-contactSide-margin">Contáctenos antes de hacer cualquier acción que requiera a uno.</p>
           <p class="text-contactSide-margin">En ICACE Abogados somos especialistas en varias áreas del derecho, nosotros tenemos la solución correcta a cualquier problemática legal.</p>
+          <br>
           <div class="address-photo-container-contactSide">
             <p> Correos:
             <a href="https://" target="_blank" class="link-mail">ivon.gallardo@juridicoicacehidalgo.mx</a>
@@ -72,26 +73,22 @@
           <h1>Déjanos Tus Datos</h1>
           <p>Explícanos tu caso</p>
           <div>
-            <form>
+            <form method="post" action="sendbyemail.php">
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Teléfono</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="mail">Correo:</label>
+                <input type="email" class="form-control" id="mail" name="mail" placeholder="Correo">
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Teléfono">
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Asunto</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Tu mensaje (opcional)</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="message">Mensaje:</label>
+                <textarea class="form-control" id="message" rows="3" name="message" placeholder="Mensaje"></textarea>
               </div>
               <button type="submit" class="btn btn-primary color-buttom-form-contact">Enviar</button>
             </form>

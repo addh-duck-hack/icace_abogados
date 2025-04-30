@@ -487,7 +487,15 @@ iframe {
     height: calc(100vh - 224px);
 }
 
+.services-hidden-view{
+    margin-top: -124px;
+    height: 124px;
+}
 
+.content-result-email{
+    margin-top: 124px;
+    height: calc(100vh - 224px);
+}
 
 
 @keyframes slideDown {
@@ -662,4 +670,10 @@ iframe {
     .indStrategy-container-height{
         height: auto;
     }
+
+    .services-hidden-view{
+        margin-top: -101px;
+        height: 101px;
+    }
+    
 }

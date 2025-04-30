@@ -1,4 +1,4 @@
-<div id="servicios" style="margin-top: -124px; height: 124px;"></div>
+<div id="servicios" class="services-hidden-view"></div>
 </div>
 
 <div class="container-fluid baner-services">

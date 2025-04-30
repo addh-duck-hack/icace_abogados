@@ -1,10 +1,10 @@
 <header class="header-custom fixed-top">
     <nav class="navbar-custom navbar navbar-expand-lg">
         <div class="container-fluid header-title">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="/index.php">
                 <img src="../img/logo_icace.png" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
             </a>
-            <a class="navbar-title weight-600" href="/index.html">
+            <a class="navbar-title weight-600" href="/index.php">
                 <p>ICACE</p>
                 <p>DESPACHO DE ABOGADOS</p>
             </a>
@@ -39,7 +39,7 @@
           <a href="/index.php" class="link-duck-hack">INICIO</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
-            <a href="javascript:void(0);" class="link-duck-hack" onclick="scrollToServicios()" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent">SERVICIOS JURÍDICOS</a>
+            <a href="javascript:void(0);" class="link-duck-hack" onclick="scrollToServicios()" data-bs-toggle="collapse">SERVICIOS JURÍDICOS</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
           <a href="/indexStrategy.php" class="link-duck-hack">VALORES</a>
