@@ -1,10 +1,10 @@
 <header class="header-custom fixed-top">
     <nav class="navbar-custom navbar navbar-expand-lg">
         <div class="container-fluid header-title">
-            <a class="navbar-brand" href="https://juridicoicacehidalgo.mx/">
+            <a class="navbar-brand" href="/index.html">
                 <img src="../img/logo_icace.png" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
             </a>
-            <a class="navbar-title weight-600" href="https://juridicoicacehidalgo.mx/">
+            <a class="navbar-title weight-600" href="/index.html">
                 <p>ICACE</p>
                 <p>DESPACHO DE ABOGADOS</p>
             </a>
@@ -36,17 +36,16 @@
     <div class="container-fluid text-center navbar-container collapse" id="navbarToggleExternalContent">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
-            INICIO
+          <a href="/index.html" class="link-duck-hack">INICIO</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
-            SERVICIOS JURÍDICOS
+            <a href="javascript:void(0);" class="link-duck-hack" onclick="scrollToServicios()" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent">SERVICIOS JURÍDICOS</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
-            VALORES
+          <a href="/indexStrategy.html" class="link-duck-hack">VALORES</a>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-12 container-text-center-navbar">
-          <a href="/indexContact.html" class="link-duck-hack">CONTACTO
-          </a>
+          <a href="/indexContact.html" class="link-duck-hack">CONTACTO</a>
           </div>
         </div>
       </div>

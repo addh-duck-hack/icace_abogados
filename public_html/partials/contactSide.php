@@ -1,15 +1,21 @@
-<div class="container-fluid">
+<div class="container-fluid indexContact-margin indexContact-container-height">
     <div class="row margin-row-contact">
       <div class="col col-lg-4 col-md-12 col-sm-12">
         <div class="title-photo-container-contactSide">
           <h1>Visita nuestras oficinas</h1>
-          <p>World Trade Center</p>
-        </div>
-        <div class="photo-container-contactSide">
+          <p></p>
+          <div class="photo-container-contactSide">
+            <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.768778864977!2d-98.7685378243587!3d20.101950218964078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a15b8de48015%3A0xc30c646f7eea2c2f!2sthakar%20sing%20106!5e0!3m2!1ses-419!2smx!4v1745865082619!5m2!1ses-419!2smx" 
+            style="width: 100%; height: 300px; border: 0;" 
+            allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
         </div>
         <div class="address-photo-container-contactSide">
           <h1>Dirección</h1>
-          <p>Montecito 38, Piso 17, Oficina 16 (World Trade Center, Ciudad de México), colonia Nápoles 03810 CDMX.</p>
+          <p>Thakar Singh No.200 M.6 L.9 Santa Julia Ampl. C.P. 42080, Pachuca de Soto, Hidalgo.</p>
         </div>
       </div>
       <div class="col col-lg-4 col-md-12 col-sm-12">
@@ -17,18 +23,14 @@
           <h1>Contáctanos</h1>
           <p class="text-contactSide-margin">¿Necesitas un abogado?</p>
           <p class="text-contactSide-margin">Contáctenos antes de hacer cualquier acción que requiera a uno.</p>
-          <p class="text-contactSide-margin">En Saucedo Abogados somos especialistas en varias áreas del derecho, nosotros tenemos la solución correcta a cualquier problemática legal.</p>
-          <h5>Obtenga la asesoría jurídica que requiere.</h5>
-          <div class="phone-container">
-            <a href="tel:5555555555" target="_blank" class="no-underline-text-phone">
-                <span class="text-phone-container">¡Llame ahora!</span>
-                <span><i class="fa fa-phone icon-phone" aria-hidden="true"></i></span>
-            </a>
-          </div>
+          <p class="text-contactSide-margin">En ICACE Abogados somos especialistas en varias áreas del derecho, nosotros tenemos la solución correcta a cualquier problemática legal.</p>
           <div class="address-photo-container-contactSide">
-            <p> Correo:
-            <a href="https://" target="_blank" class="link-mail">direccion@saucedoa.com</a>
-            </p>
+            <p> Correos:
+            <a href="https://" target="_blank" class="link-mail">ivon.gallardo@juridicoicacehidalgo.mx</a>
+            <a href="https://" target="_blank" class="link-mail">carlos.guzman@juridicoicacehidalgo.mx</a>
+            <a href="https://" target="_blank" class="link-mail">armando.ramirez@juridicoicacehidalgo.mx</a>
+            <a href="https://" target="_blank" class="link-mail">abogados@juridicoicacehidalgo.mx</a>
+          </p>
           </div>
           <div class="container-fluid">
             <div class="row">
@@ -53,15 +55,11 @@
               <div class="col margin-phone-number">
                 <div class="phone-container-number">
                   <i class="fa-solid fa-headphones color-icons-contact"></i>
-                  <p class="phone-number-container">55-9000-0136</p>
+                  <p class="phone-number-container">55 4381 7270</p>
                 </div>
                 <div class="phone-container-number">
                   <i class="fa-solid fa-headphones color-icons-contact"></i>
-                  <p class="phone-number-container">55-9000-0136</p>
-                </div>
-                <div class="phone-container-number">
-                  <i class="fa-solid fa-headphones color-icons-contact"></i>
-                  <p class="phone-number-container">55-9000-0136</p>
+                  <p class="phone-number-container">771 144 2258</p>
                 </div>
                 <p class="text-clock-margin">Números para atención a clientes</p>
               </div>

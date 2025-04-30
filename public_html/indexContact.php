@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICACE Abogados</title>
-    <link rel="stylesheet" href="css/styles.css?10042025">
+    <link rel="stylesheet" href="css/styles.css?29042025">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,35 +13,19 @@
 </head>
 <body>
     <!-- Encabezado -->
-    <div id="header"></div>
+    <div id="header">
+        <?php include 'partials/header.php'; ?>
+    </div>
     <!-- ContactSide -->
-    <div id="indStrategy"></div>
+    <div id="contactSide">
+        <?php include 'partials/contactSide.php'; ?>
+    </div>
     <!-- Pie de página -->
-    <div id="footer"></div>
+    <div id="footer">
+        <?php include 'partials/footer.php'; ?>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        // Función para cargar archivos HTML parciales
-        function loadHTML(id, url) {
-            fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(id).innerHTML = data;
-                    if (id === 'footer') {
-                        downloadJSAtOnload();
-                    }
-            });
-        }
-        // Cargar los archivos parciales
-        loadHTML('header', 'partials/header.html');
-        loadHTML('indStrategy', 'partials/indStrategy.html');
-        loadHTML('footer', 'partials/footer.html');
-
-        function downloadJSAtOnload() {
-            var element = document.createElement("script");
-            element.src = "js/scripts.js?02042025";
-            document.body.appendChild(element);
-        }
-    </script>
+<script src="js/scripts.js?29042025" defer></script>
 </body>
 </html>
