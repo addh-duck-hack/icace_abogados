@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function scrollToServicios() {
-    if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
+    if (window.location.pathname.includes('index.php') || window.location.pathname === '/') {
         const serviciosSection = document.getElementById('servicios');
         if (serviciosSection) {
             serviciosSection.scrollIntoView({ behavior: 'smooth' });
@@ -63,6 +63,6 @@ function scrollToServicios() {
         if (typeof Storage !== 'undefined') {
             localStorage.setItem('scrollToServicios', 'true');
         }
-        window.location.href = '/index.html';
+        window.location.href = '/index.php';
     }
 }
