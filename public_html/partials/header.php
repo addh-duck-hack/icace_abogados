@@ -15,19 +15,19 @@
                 <a href="https://www.facebook.com/profile.php?id=61574851814059" target="_blank" class="social-icon">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" target="_blank" class="social-icon">
+                <a href="https://www.instagram.com/juridicoicacehgo/" target="_blank" class="social-icon">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#" target="_blank" class="social-icon">
+                <!-- <a href="#" target="_blank" class="social-icon">
                     <i class="fab fa-whatsapp"></i>
-                </a>
+                </a> -->
                 <a href="https://www.tiktok.com/@juridicoicacehgo" target="_blank" class="social-icon">
                     <i class="fab fa-tiktok"></i>
                 </a>
                 <a href="https://www.youtube.com/@Jur%C3%ADdicoICACEHidalgo" target="_blank" class="social-icon">
                     <i class="fab fa-youtube"></i>
                 </a>
-                <a href="#" target="_blank" class="social-icon">
+                <a href="https://open.spotify.com/show/0wHKEFFbHhETQYA3f8hDoU?si=PMB3LMbHTs2BE7DKPqpEVQ&nd=1&dlsi=b9fd497554fc4957" target="_blank" class="social-icon">
                   <i class="fa-brands fa-spotify"></i>
                 </a>
             </div>
