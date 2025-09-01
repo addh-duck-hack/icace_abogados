@@ -16,7 +16,7 @@
         <img src="../img/barra_abogados.png" class="imagen-afiliados">
       </a>
       <a href="/index.php" class="link-afiliados link-0">
-        <img src="../img/logo_icace-2.jpg" class="imagen-logo-carrucel">
+        <img src="../img/logo-icace-2.jpg" class="imagen-logo-carrucel">
       </a>
     </div>
   </div>

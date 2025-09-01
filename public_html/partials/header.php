@@ -2,7 +2,7 @@
     <nav class="navbar-custom navbar navbar-expand-lg">
         <div class="container-fluid header-title">
             <a class="navbar-brand" href="/index.php">
-                <img src="../img/logo_icace-2.jpg" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
+                <img src="../img/logo-icace-2.jpg" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
             </a>
             <a class="navbar-title weight-600" href="/index.php">
                 <p>ICACE</p>
