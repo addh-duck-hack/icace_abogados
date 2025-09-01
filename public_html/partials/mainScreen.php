@@ -5,8 +5,8 @@
       <img src="../img/3personas_recortada.jpg" class="w-100 h-100 col-hidden-lg" alt="...">
     </div>
     <div class="carousel-item" data-bs-slide-to="1">
-      <img src="../img/Imagen_inicial.jpg" class="w-100 h-100 col-hidden-sm" alt="...">
-      <img src="../img/Imagen_inicial_movil.jpeg" class="w-100 h-100 col-hidden-lg" alt="...">
+      <img src="../img/imagen_inicial-2.jpg" class="w-100 h-100 col-hidden-sm" alt="...">
+      <img src="../img/imagen_inicial-2.jpeg" class="w-100 h-100 col-hidden-lg" alt="...">
     </div>
   </div>
   <div class="frame-container text-center text-imagen logo-imagen">
@@ -16,7 +16,7 @@
         <img src="../img/barra_abogados.png" class="imagen-afiliados">
       </a>
       <a href="/index.php" class="link-afiliados link-0">
-        <img src="../img/logo_icace.png" class="imagen-logo-carrucel">
+        <img src="../img/logo_icace-2.jpg" class="imagen-logo-carrucel">
       </a>
     </div>
   </div>

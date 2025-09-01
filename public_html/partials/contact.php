@@ -1,4 +1,4 @@
-<div class="services-container container-fluid" style="background-image: url(../img/Imagen_inicial.jpg);">
+<div class="services-container container-fluid" style="background-image: url(../img/imagen_inicial-2.jpg);">
   <div class="services-transparent container-fluid text-center text-services">
     <h1 class="weight-700">BUFET DE ABOGADOS</h1>
     <p class="font-size-services-text weight-500">VINCULACIÓN GUBERNAMENTAL Y ENLACE EMPRESARIAL</p>
@@ -49,6 +49,27 @@
       <div class="title-photo-container container-text-center-contact">
         <h1 class="weight-700"></h1>
         <p class="text-center no-marging">LIC. ARMANDO RAMÍREZ ESCUDERO</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="photo-container-single">
+        <img src="../img/carlos-cesar.jpg" class="imagen-contact">
+      </div>
+      <div class="title-photo-container container-text-center-contact">
+        <h1 class="weight-700"></h1>
+        <p class="text-center no-marging">DOC. CARLOS CESAR GUZMAN ALVAREZ</p>
+      </div>
+    </div>
+    <!--<div class="col col-hidden-sm"></div>-->
+    <div class="col">
+      <div class="photo-container-single">
+        <img src="../img/maria-elisa.jpg" class="imagen-contact">
+      </div>
+      <div class="title-photo-container container-text-center-contact">
+        <h1 class="weight-700"></h1>
+        <p class="text-center no-marging">LIC. MARIA ELISA VAZQUEZ OLARRA</p>
       </div>
     </div>
   </div>

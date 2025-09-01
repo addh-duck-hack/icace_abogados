@@ -2,7 +2,7 @@
     <nav class="navbar-custom navbar navbar-expand-lg">
         <div class="container-fluid header-title">
             <a class="navbar-brand" href="/index.php">
-                <img src="../img/logo_icace.png" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
+                <img src="../img/logo_icace-2.jpg" alt="Logo ICACE Abogados" class="logo-navbar header-logo">
             </a>
             <a class="navbar-title weight-600" href="/index.php">
                 <p>ICACE</p>
@@ -12,7 +12,7 @@
                 <a href="#" class="social-icon col-hidden-lg" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa-solid fa-bars"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61574851814059" target="_blank" class="social-icon">
+                <a href="https://www.facebook.com/profile.php?id=61578234180631" target="_blank" class="social-icon">
                     <i class="fab fa-facebook-f"></i>
                 </a>
                 <a href="https://www.instagram.com/juridicoicacehgo/" target="_blank" class="social-icon">
