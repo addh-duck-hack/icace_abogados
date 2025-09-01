@@ -6,6 +6,8 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     container_name: juridicoicacehidalgo.mx
+    volumes:
+      - ./public_html:/var/www/html
     restart: always
     ports:
       - 100:80
