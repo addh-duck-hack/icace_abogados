@@ -59,7 +59,7 @@
       </div>
       <div class="title-photo-container container-text-center-contact">
         <h1 class="weight-700"></h1>
-        <p class="text-center no-marging">DOC. CARLOS CESAR GUZMAN ALVAREZ</p>
+        <p class="text-center no-marging">DR. CARLOS CESAR GUZMAN ALVAREZ</p>
       </div>
     </div>
     <!--<div class="col col-hidden-sm"></div>-->
