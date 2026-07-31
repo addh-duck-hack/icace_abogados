@@ -1,0 +1,28 @@
+<div class="indStrategy-container indStrategy-margin indStrategy-container-height">
+    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div>
+            <h1 class="font-strategy-header">MISIÓN</h1>
+            <p class="font-strategy-text">Ofrecer soluciones jurídicas integrales y personalizadas, respaldadas por una
+                profunda ética profesional y un compromiso con la excelencia.</p>
+        </div>
+    </div>  
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+        <div>
+            <h1 class="font-strategy-header">VISIÓN</h1>
+            <p class="font-strategy-text">Ser un despacho de abogados de referencia a nivel nacional e internacional,
+                  reconocido por nuestra capacidad para ofrecer soluciones legales innovadoras y
+                  efectivas. Aspiramos a ser un aliado estratégico para nuestros clientes, brindando un
+                  servicio excepcional basado en la confianza, la ética y la excelencia, con el objetivo
+                  de contribuir al progreso social y económico mediante la justicia y el respeto por los
+                  derechos humanos.</p>
+        </div>
+    </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <div>
+            <h1 class="font-strategy-header">VALORES</h1>
+            <p class="font-strategy-text">Ética, compromiso, defensa de los derechos humanos, capacidad para
+                    transformar desafíos legales en oportunidades de éxito, justicia, equidad y la
+                    transparencia.</p>
+        </div>
+    </div>
+</div>

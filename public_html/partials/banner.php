@@ -1,0 +1,1 @@
+<img src="../img/banner-animado_2.gif" class="banner-imagen banner-height no-marging">

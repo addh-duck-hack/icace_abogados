@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICACE Abogados</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?29042025">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,34 +13,51 @@
 </head>
 <body>
     <!-- Encabezado -->
-    <div id="header"></div>
+    <div id="header">
+        <?php include 'partials/header.php'; ?>
+    </div>
+
+    <!-- Pantalla inicial -->
+    <div id="mainScreen">
+        <?php include 'partials/mainScreen.php'; ?>
+    </div>
+
+    <!-- Servicios -->
+    <div id="services">
+        <?php include 'partials/services.php'; ?>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <?php include 'partials/contact.php'; ?>
+    </div>
+
+    <!-- Video -->
+    <div id="video">
+        <?php include 'partials/video.php'; ?>
+    </div>
+
+    <!-- Banner -->
+    <div id="banner">
+        <?php include 'partials/banner.php'; ?>
+    </div>
+
+    <!-- Strategy -->
+    <div id="strategy">
+        <?php include 'partials/strategy.php'; ?>
+    </div>
 
     <!-- Carrusel -->
-    <div id="carousel"></div>
-
-    <div class="container mt-5">
-        <h1>Bienvenidos a ICACE Abogados</h1>
-        <p>En ICACE Abogados ofrecemos servicios legales de alta calidad para satisfacer las necesidades de nuestros clientes.</p>
-        <p>Contáctenos para más información sobre nuestros servicios.</p>
+        <div id="carousel">
+    <?php include 'partials/carousel.php'; ?>
     </div>
 
     <!-- Pie de página -->
-    <div id="footer"></div>
+    <div id="footer">
+        <?php include 'partials/footer.php'; ?>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-    <script>
-        // Función para cargar archivos HTML parciales
-        function loadHTML(id, url) {
-            fetch(url)
-                .then(response => response.text())
-                .then(data => document.getElementById(id).innerHTML = data);
-        }
-
-        // Cargar los archivos parciales
-        loadHTML('header', 'partials/header.html');
-        loadHTML('carousel', 'partials/carousel.html');
-        loadHTML('footer', 'partials/footer.html');
-    </script>
+    <script src="js/scripts.js?29042025" defer></script>
 </body>
 </html>

@@ -1,0 +1,679 @@
+/* 
+Este archivo es donde se pueden agregar estilos personalizados para el sitio web del despacho de abogados. 
+*/ 
+
+:root {
+    --abogados-azul: #00416b;
+    --abogados-gris: #8a8a8a;
+    --abogados-amarillo: #edcc1cff;
+    --abogados-blanco: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.margin-top-80{
+    margin-top: 80px;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
+
+.logo-navbar{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.navbar-custom{
+    background-color: var(--abogados-azul) !important;
+}
+
+.navbar-title{
+    color: var(--abogados-amarillo);
+    text-decoration: none;
+}
+.navbar-title > p{
+    margin: -7px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: var(--abogados-azul);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.social-icon:hover {
+    background-color: var(--abogados-amarillo);
+    color: white;
+}
+
+.link-duck-hack{
+    color:white;
+    text-decoration: none;
+}
+.link-duck-hack:hover {
+    color: var(--abogados-amarillo);
+}
+
+footer {
+    background-color: var(--abogados-azul);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-container{
+    background-color: var(--abogados-gris) !important;
+    color: white;
+    padding: 12px 0px !important;
+}
+.container-text-center-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial-imagen-margin{
+    margin-top: 124px;
+}
+.carousel-container{
+    height: calc(100vh - 124px);
+}
+.imagen-inicial-container{
+    height: calc(100vh - 124px);
+}
+.carousel-item{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.center-frame-container{
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.frame-container{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    padding: 40px 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.imagen-afiliados{
+    width: 500px;
+    height: auto;
+}
+.imagen-logo-carrucel{
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+}
+.frame-container > h1{
+    color: white;
+    font-size: 1.79em;
+    margin-bottom: -20px;
+}
+.services-container{
+    width: 100%;
+    height: 40vh;
+    padding: 0 !important;
+    background-size: cover;
+    background-position:  25% 30%;
+}
+.services-transparent{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    padding: 50px 100px;
+}
+.text-services > h1{
+    color: black;
+    margin: 0px 0;
+}
+
+.font-size-services-text{
+    font-size: 1.5em;
+}
+
+.baner-services{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: auto;
+}
+.icon-circle {  
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em; 
+    background-color: white;
+    color: black;
+    margin: 15px 0 5px 0;
+}
+.container-icon-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element-icon-circle{
+    margin-left: 0px;
+}
+.justify-content-center{
+    padding-bottom: 15px;
+}
+.text-banner-services{
+    margin: 0;
+}
+
+.video-container{
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.video-container > iframe{
+    width: 100%;
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.text-end{
+    margin-right: 80px;
+}
+.container-text-video-left{
+    border: 2px solid gray;
+    padding: 5px;
+    margin-bottom: 20px;
+    min-height: 40vh;
+    max-height: 45vh;
+}
+.banner{
+    height: 30vh;
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+}
+.contact-container-banner{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: 200px;
+    margin: 20px 0;
+}
+.contact-container-banner h1{
+    margin: 0;
+}
+
+.contact-container .row{
+    width: 100%;
+}
+
+.container-text-center-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-imagen{
+    height: 300px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.photo-container-single{
+    border: 1px solid var(--abogados-gris);
+    width: 250px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+
+.photo-container-tree{
+    border: 1px solid var(--abogados-gris);
+    width: 450px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+
+.title-photo-container{
+    background-color: var(--abogados-gris);
+    width: 230px;
+    height: 60px;
+    margin: -30px auto 0;
+    color: var(--abogados-blanco);
+    
+}
+.title-photo-link{
+    color: var(--abogados-blanco);
+    text-decoration: none;
+}
+.title-photo-link:hover {
+    color: var(--abogados-amarillo);
+}
+
+
+.title-photo-container h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.imagen-contact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    cursor: pointer;
+}
+
+
+.font-strategy-text{
+    font-size: 15px;
+    text-align: justify;
+}
+.font-strategy-header{
+    font-size: 1em;
+    font-weight: 700;
+}
+.margin-strategy{
+    margin: 30px 0;
+}
+
+.strategy-container-banner{
+    background-color: var(--abogados-azul);
+    color: white;
+    height: 90px;
+    margin: 10px 0;
+}
+.strategy-banner-header{
+    margin: 0;
+}
+
+.container-text-center-strategy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container-contactSide{
+    border: 1px solid var(--abogados-gris);
+    height: 300px;
+    margin: 0;
+}
+.title-photo-container-contactSide{
+    margin: 30px auto 30px auto;
+}
+.container-text-center-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-photo-container-contactSide{
+    width: 250px;
+}
+.text-contactSide-margin{
+    margin: 0;
+}
+.phone-container{
+    background-color: var(--abogados-gris);
+    width: 140px;
+}
+.text-phone-container{
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.no-underline-text-phone {
+    text-decoration: none;
+}
+.icon-phone{
+    font-size: 1em;
+    color: white;
+    margin-left: 10px;
+}
+.link-mail{
+    color: gray;
+    font-weight: 600;
+}
+.clock-container{
+    color: var(--abogados-gris);
+    width: 100px;
+}
+.text-clock-container{
+    font-size: 15px;
+    margin: -24px auto auto 20px;
+    width: 100px;
+}
+.text-clock-margin{
+    margin: 0;
+}
+.phone-container-number{
+    width: 140px;
+    color: gray;
+}
+.phone-number-container{
+    font-size: 15px;
+    margin: -24px auto auto 20px;
+    width: 140px;
+}
+.margin-phone-number{
+    margin-top: 20px !important
+}
+.color-icons-contact{
+    color: black;
+}
+.color-buttom-form-contact{
+    background-color: var(--abogados-gris)!important;
+    color: white !important;
+    border-color: gray !important;
+}
+.margin-row-contact{
+    margin: 0!important;
+}
+
+.indStrategy-container{
+    margin: 7em 26% 0em;
+    padding: 50px 20px;
+    color: black;
+    height: auto;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+.no-marging{
+    margin: 0 !important;
+}
+.background-image-contact{
+    background-size: cover;
+    background-position: center;
+}
+
+.form-contact-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 2em 4em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.address-note{
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    color: var(--abogados-blanco);
+    position: relative;
+}
+.form-address-note{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--abogados-blanco);
+    width: 50%;
+    margin: auto;
+    padding: 1em 2em;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.map-container {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.indStrategy-margin{
+    margin-top: 124px;
+}
+.indStrategy-container-height{
+    height: calc(100vh - 224px);
+}
+.indexContact-margin{
+    margin-top: 124px;
+}
+.indexContact-container-height{
+    height: calc(100vh - 224px);
+}
+
+.services-hidden-view{
+    margin-top: -124px;
+    height: 124px;
+}
+
+.content-result-email{
+    margin-top: 124px;
+    height: calc(100vh - 224px);
+}
+
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    33% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    66% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    33% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    66% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+.text-imagen h1{
+    opacity: 0;
+    animation: slideDown 5s forwards infinite;
+}
+.logo-imagen div{
+    opacity: 0;
+    animation: slideUp 5s forwards infinite;
+}
+
+
+@keyframes slide {
+    0% {
+    transform: translateX(100%);
+}
+    100% {
+    transform: translateX(-100%);
+    }
+}
+.text-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.text-slide {
+    display: inline-block;
+    padding-left: 100%;
+    animation: slide 10s linear infinite;
+}
+
+@media (min-width: 768px) {
+    .collapse:not(.show) {
+        display: block !important;
+    }
+    .col-hidden-lg {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .indexContact-container-height {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .col-hidden-sm {
+        display: none;
+    }
+    .header-logo{
+        margin: 0px;
+    }
+    .header-icons{
+        justify-content: flex-start;
+    }
+    .header-bar{
+        width: 100%;
+    }.social-icon{
+        margin-top: 0px;
+    }
+    .header-title{
+        justify-content: normal !important;
+    }
+    .header-icons > a{
+        margin-right: 0px;
+    }
+    .col-bar{
+        margin: 0px;
+    }
+    .text-left-frame{
+        text-align: left;
+        margin-left: 20px;
+        padding: 10px 0;
+    }
+    .banner-height{
+        height: auto;
+    }
+    .contact-container-banner-height{
+        height: 100px;
+    }
+    .navbar-toggler{
+        border: none !important;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+    .navbar-container{
+        padding: 0px !important;
+    }
+    .inicial-imagen-margin{
+        margin-top: 101px;
+    }
+    .imagen-afiliados{
+        width: 100%;
+    }
+    .imagen-logo-carrucel{
+        width: 50%;
+    }
+    .frame-container{
+        padding: 40px 30px;
+    }
+    .frame-container > h1 {
+        margin-bottom: 10px;
+    }
+    .imagen-inicial-container {
+        height: calc(100vh - 101px);
+    }
+    .carousel-container{
+        height: calc(100vh - 101px);
+    }
+    .form-contact-container{
+    width: 85%;
+    padding: 15px 20px;
+    }
+    .background-image-inicial{
+        background-size: cover;
+        background-position: 100% 30%;
+    }
+    .photo-container-tree{
+        width: 100%;
+    }
+    .indexContact-margin{
+        margin-top: 130px;
+    }
+    .indexContact-container-height{
+        height: auto;
+    }
+    .title-photo-container-contactSide{
+        margin: 10px auto 30px auto;
+    }
+    .indStrategy-margin{
+        margin-top: 124px;
+    }
+    .indStrategy-container-height{
+        height: auto;
+    }
+
+    .services-hidden-view{
+        margin-top: -101px;
+        height: 101px;
+    }
+    
+}
