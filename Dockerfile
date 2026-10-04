@@ -5,7 +5,8 @@
 FROM composer:2 AS vendor
 WORKDIR /app
 # Resolver dependencias compatibles con el PHP de la imagen final, no con el de Composer
-RUN composer config platform.php 7.4.33 \
+RUN echo '{}' > composer.json \
+    && composer config platform.php 7.4.33 \
     && composer require phpmailer/phpmailer --no-interaction --no-progress
 
 FROM php:7.4-apache
