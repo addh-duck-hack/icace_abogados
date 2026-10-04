@@ -1,13 +1,11 @@
-version: "3.7"
-
 services:
   juridicoicacehidalgo.mx:
     build:
       context: ./
       dockerfile: ./Dockerfile
     container_name: juridicoicacehidalgo.mx
-    volumes:
-      - ./public_html:/var/www/html
+    # Sin volumen sobre /var/www/html: taparía el vendor/ (PHPMailer) instalado en
+    # la imagen. Los archivos se copian en el build; el deploy ya usa --build.
     restart: always
     networks:
       - npm
