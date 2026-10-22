@@ -7,6 +7,11 @@ services:
     # Sin volumen sobre /var/www/html: taparía el vendor/ (PHPMailer) instalado en
     # la imagen. Los archivos se copian en el build; el deploy ya usa --build.
     restart: always
+    # Compose lee SMTP_PASSWORD del .env junto a este archivo (no se sube a git;
+    # ver .env.example). Si falta, el contenedor arranca igual y solo el
+    # formulario de contacto muestra el error.
+    environment:
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
     networks:
       - npm
 

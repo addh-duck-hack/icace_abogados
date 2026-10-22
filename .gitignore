@@ -1,0 +1,15 @@
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencias (Composer se instala dentro de la imagen)
+vendor/
+public_html/vendor/
+
+# Variables de entorno y logs
+.env
+.env.*
+!.env.example
+*.log

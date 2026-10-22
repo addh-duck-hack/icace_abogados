@@ -1,0 +1,16 @@
+# Solo public_html entra a la imagen; todo lo demás sobra en el contexto de build
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+README*
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+vendor/
+public_html/vendor/
+public_html/README

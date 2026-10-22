@@ -58,7 +58,11 @@
                             $mail->Host = 'mail.juridicoicacehidalgo.mx'; // Host del servidor SMTP
                             $mail->SMTPAuth = true;
                             $mail->Username = 'contacto@juridicoicacehidalgo.mx'; // Dirección de correo desde donde se enviará
-                            $mail->Password = 'CCvWJJSffs'; // Contraseña del correo
+                            // Viene de SMTP_PASSWORD en el .env del servidor (ver docker-compose.yml)
+                            $mail->Password = getenv('SMTP_PASSWORD');
+                            if ($mail->Password === false || $mail->Password === '') {
+                                throw new Exception('Falta configurar SMTP_PASSWORD en el servidor.');
+                            }
                             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encriptación TLS
                             $mail->Port = 587; // Puerto SMTP
 
